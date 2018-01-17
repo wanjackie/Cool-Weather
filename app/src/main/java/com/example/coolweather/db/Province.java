@@ -30,6 +30,14 @@ public class Province extends DataSupport {
         return id;
     }
 
+    public String getProvinceName() {
+        return provinceName;
+    }
+
+    public int getProvinceCode() {
+        return provinceCode;
+    }
+
     @Override
     public String toString() {
         return "Province{" +
